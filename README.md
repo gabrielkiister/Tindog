@@ -9,6 +9,9 @@ This website was made using Bootstrap components like, navbar, carousel, cards, 
 
 # Screenshots
 ![Alt text](/screenshots/Title.png?raw=true)
+
 ![Alt text](/screenshots/Features.png?raw=true)
+
 ![Alt text](/screenshots/Testimonials.png?raw=true)
+
 ![Alt text](/screenshots/Pricing.png?raw=true)
