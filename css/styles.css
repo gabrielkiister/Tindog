@@ -1,0 +1,247 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 4.5rem 0;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+h1, #testimonials h2, #cta h3 {
+    filter: drop-shadow(10px 5px 5px #263999);
+} 
+
+/* ---------------------sections styling------------------------------- */
+#footer,
+#cta,
+#pricing {
+  padding: 7% 15%;
+}
+
+#pricing,
+#footer,
+#features {
+  background-color: white;
+  filter: drop-shadow(0px 0px 5px #263999);
+}
+
+#cta,
+#press,
+#testimonials,
+#title {
+  background-color: #ff4c68;
+}
+
+#title,
+#testimonials {
+  color: white;
+}
+
+/* --------------------------------TITLE SECTION---------------------------- */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  overflow: hidden;
+  /*make the phone go behind the next section*/
+}
+
+/* nav bar */
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-weight: 700;
+  filter: drop-shadow(5px 5px 3px #263999);
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.title-left-column {
+  text-align: left;
+}
+
+.btn-dark {
+  background-color: #263999;
+}
+
+.btn-dark:hover {
+  background-color: white;
+  color: #263999;
+  scale: 1.05;
+}
+
+.btn-outline-light {
+  border-color: #263999;
+  color: #263999;
+}
+
+.btn-outline-light:hover {
+  background-color: white;
+  color: #ff4c68;
+  scale: 1.05;
+}
+
+.phone-img {
+  position: relative;
+  top: 30%;
+  width: 250px;
+  /*reduced width so it doesnt make the parent div unnecessarily large*/
+  scale: 1.4;
+  /*using scale to increase the size without making the parent larger*/
+  transform: rotate(20deg);
+  filter: drop-shadow(20px 10px 5px #263999);
+}
+
+/* -----------------------------FEATURES SECTION---------------------------- */
+.fa-circle-check,
+.fa-bullseye,
+.fa-heart {
+  margin-bottom: 20px;
+  color: #263999;
+}
+
+.middle-col {
+  margin: 50px 0;
+  padding: 50px 0px;
+  transition: 0.15s;
+}
+
+.middle-col:hover {
+  scale: 1.05;
+  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.middle-col:hover .icon-color {
+  color: #ff4c68;
+}
+
+#features h3 {
+  line-height: 3rem;
+}
+
+#features p {
+  color: #8f8f8f;
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* ---------------------------TESTIMONIALS SECTION---------------------------- */
+#testimonials img {
+  border-radius: 50%;
+  width: 15%;
+  margin-right: 20px;
+}
+
+#press {
+  padding-bottom: 3%;
+  box-shadow: 0px 3px 5px -2px #263999;
+}
+
+#press img {
+  width: 10%;
+  margin: 0px 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  scale: 1.5;
+}
+
+.carousel-item {
+  padding: 100px 15% 50px;
+}
+
+/* ---------------------------PRICING SECTION------------------------------ */
+#pricing h2 {
+  color: #263999;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#pricing span {
+  font-weight: 400;
+  font-size: 2rem;
+  opacity: 0.5;
+}
+
+.free-button:hover {
+  background-color: #263999;
+}
+
+/* ---------------------------CALL TO ACTION--------------------------------- */
+.cta-container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#cta h3 {
+  color: white;
+  margin-bottom: 50px;
+  font-size: 3rem;
+}
+
+#cta .btn {
+  margin: 0 10px;
+}
+
+/* -------------------------FOOTER SECTION----------------------- */
+#footer a {
+  text-decoration: none;
+  color: black;
+  margin: 0px 5px 20px;
+}
+
+/* ---------------------------MEDIA QUERIES--------------------------------- */
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  #title,
+  #pricing {
+    text-align: center;
+  }
+
+  #title .btn-dark {
+    margin-right: 10px;
+  }
+
+  .cta-container {
+    width: 100%;
+  }
+
+  .testimonial-text {
+    font-size: 2.5rem;
+  }
+
+  .phone-img {
+    left: 0;
+    transform: rotate(0);
+  }
+}
