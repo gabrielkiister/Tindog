@@ -7,4 +7,8 @@ A home page website for a fake startup which provides details of the Tindog app 
 # Tools Used
 This website was made using Bootstrap components like, navbar, carousel, cards, etc. As well as some advanced CSS techniques, Google Fonts and Font Awesome for the icons.
 
+# Screenshots
 ![Alt text](/screenshots/Title.png?raw=true)
+![Alt text](/screenshots/Features.png?raw=true)
+![Alt text](/screenshots/Testimonials.png?raw=true)
+![Alt text](/screenshots/Pricing.png?raw=true)
